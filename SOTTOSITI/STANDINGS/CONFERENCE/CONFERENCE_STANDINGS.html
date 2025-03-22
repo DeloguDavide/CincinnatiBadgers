@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <link rel="stylesheet" href="../CONFERENCE/CSS/style.css" type="text/css" media="all">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Basket, Badgers, Cincinnati, NBA, Classifica">
+    <title>NBA STANDINGS</title>
+</head>
+
+
+<body>
+    <!-- Intestazione che riporta i collegamenti ai negozi e ai siti ufficiali NBA, oltre al collegamento al LOGIN -->
+    <header id="int">
+        <!-- Inserisco il logo dell'nba -->
+        <img src="./IMG/nba.png" id="cinc">
+        <!-- Inserisco i pulsanti nell'intestazione che utilizzo come collegamenti ad altri siti -->
+        <h2><a href="https://www.nba.com/" id="nba-scritta" target="_blank">NBA</a></h2>
+        <a href="../../FORM/FORM.html" target="_blank"><button id="accesso">JOIN OUR FAMILY</button></a>
+        <a href="https://store.nba.com/" target="_blank"><button id="negozio-nba">NBA STORE</button></a>
+        <a href="../../ARENA/ARENA.html" target="_blank"><button id="ar">OUR HOME</button></a>
+    </header>
+
+    <div id="main">
+        <!--Menu interrativo sinistra-->
+        <nav class="menu">
+            <h2 id="logo">BADGERS</h2> <!--DO IL NOME ALLE VARIE SEZIONI DEL MENU E INSERISCO I COLLEGSMENTI-->
+            <a href="../../../index.html" id="home">HOME</a>
+            <a href="../../ROOSTER/ROSTER.html">ROSTER</a>
+            <a href="../../STAFF/STAFF.html">STAFF</a>
+            <a href="./CONFERENCE_STANDINGS.html">STANDINGS</a>
+            <a href="../../RECORD/RECORD.html">RECORD</a>
+            <a href="../../TROPHIES/TROPHIES.html">TROPHIES</a>
+            <a href="https://www.nike.com/" target="_blank" id="nr">NIKE</a>
+            <a href="https://www.giordano-regnoblutopline.it/" target="_blank" id="gio">GIORDANO</a>
+            <a href="https://consumer.huawei.com/it/" target="_blank" id="hua">HUAWEI</a>
+        </nav>
+    </div>
+    
+    <!-- Creo un contenitore per le classifiche -->
+    <div id="squadre-conference"> <!-- Creo un contenitore per le classifiche delle conference -->
+        <ul id="eastern"> <!-- Creo la classifica della Eastern conference -->
+            <!-- Per ogni squadra inserisco i dati -->
+            <div id="s">
+                <li class="uno">
+                    <span class="num">1- </span> <!-- Posizione in classifica -->
+                    <span class="sq">HAWKS</span> <!-- Nome squadra -->
+                    <span class="WL">59-23</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">123.7</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">112.7</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W10</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">2- </span> <!-- Posizione in classifica -->
+                    <span class="sq">MAGIC</span> <!-- Nome squadra -->
+                    <span class="WL">57-25</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">119.5</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">113.1</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W7</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">3- </span> <!-- Posizione in classifica -->
+                    <span class="sq">SIXERS</span> <!-- Nome squadra -->
+                    <span class="WL">55-27</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">120.7</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">114.8</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L1</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due" id="ms">
+                    <span class="num">4- </span> <!-- Posizione in classifica -->
+                    <span class="sq">BADGERS</span> <!-- Nome squadra -->
+                    <span class="WL">55-27</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">122.9</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">114.7</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W12</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">5- </span> <!-- Posizione in classifica -->
+                    <span class="sq">BULLS</span> <!-- Nome squadra -->
+                    <span class="WL">51-31</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">121.0</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">115.7</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L3</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">6- </span> <!-- Posizione in classifica -->
+                    <span class="sq">WIZARDS</span> <!-- Nome squadra -->
+                    <span class="WL">50-32</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">121.6</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">117.1</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W6</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">7- </span> <!-- Posizione in classifica -->
+                    <span class="sq">NETS</span> <!-- Nome squadra -->
+                    <span class="WL">44-38</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">115.1</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">112.1</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W2</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">8- </span> <!-- Posizione in classifica -->
+                    <span class="sq">CELTICS</span> <!-- Nome squadra -->
+                    <span class="WL">43-39</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">119.4</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">120.0</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L3</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">9- </span> <!-- Posizione in classifica -->
+                    <span class="sq">KNICKS</span> <!-- Nome squadra -->
+                    <span class="WL">43-39</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">115.1</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">115.0</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L1</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">10- </span> <!-- Posizione in classifica -->
+                    <span class="sq">RAPTORS</span> <!-- Nome squadra -->
+                    <span class="WL">41-41</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">116.7</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">118.2</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W5</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">11- </span> <!-- Posizione in classifica -->
+                    <span class="sq">BUCKS</span> <!-- Nome squadra -->
+                    <span class="WL">39-43</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">114.1</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">115.3</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L2</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">12- </span> <!-- Posizione in classifica -->
+                    <span class="sq">CAVALIERS</span> <!-- Nome squadra -->
+                    <span class="WL">39-43</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">112.2</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">111.7</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W4</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">13- </span> <!-- Posizione in classifica -->
+                    <span class="sq">HEAT</span> <!-- Nome squadra -->
+                    <span class="WL">38-44</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">116.0</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">120.0</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L2</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">14- </span> <!-- Posizione in classifica -->
+                    <span class="sq">HORNETS</span> <!-- Nome squadra -->
+                    <span class="WL">29-53</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">115.6</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">118.7</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L7</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">15- </span> <!-- Posizione in classifica -->
+                    <span class="sq">PACERS</span> <!-- Nome squadra -->
+                    <span class="WL">20-62</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">113.4</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">121.6</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L3</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">16- </span> <!-- Posizione in classifica -->
+                    <span class="sq">PISTONS</span> <!-- Nome squadra -->
+                    <span class="WL">12-72</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">109.1</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">121.9</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L23</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+            </div>
+            <li id="east">EASTERN</li> <!-- Aggiungo la scritta/titolo della classifica -->
+            <li class="dati"> <!-- Inserisco i titoli delle statistiche -->
+                <span id="squadra">TEAM</span> <!-- Nome squadra -->
+                <span id="wl">W - L</span> <!-- Vittorie e Sconfitte -->
+                <span id="ppg">PPG</span> <!-- Punti per partita fatti -->
+                <span id="oppg">OPPG</span> <!-- Punti per partita subiti -->
+                <span id="strk">STREAK</span> <!-- Striscia di vittori o di sconfitte -->
+            </li>
+        </ul>
+        <ul id="western">
+            <!-- Per ogni squadra inserisco i dati -->
+            <div id="s1">
+                <li class="due">
+                    <span class="num">1- </span> <!-- Posizione in classifica -->
+                    <span class="sq">MAVERICKS</span> <!-- Nome squadra -->
+                    <span class="WL">54-28</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">124.0</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">116.2</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W6</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">2- </span> <!-- Posizione in classifica -->
+                    <span class="sq">TIMBERWOLVES</span> <!-- Nome squadra -->
+                    <span class="WL">53-29</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">111.6</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">108.5</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W10</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">3- </span> <!-- Posizione in classifica -->
+                    <span class="sq">JAZZ</span> <!-- Nome squadra -->
+                    <span class="WL">48-34</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">117.9</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">114.1</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W7</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">4- </span> <!-- Posizione in classifica -->
+                    <span class="sq">LAKERS</span> <!-- Nome squadra -->
+                    <span class="WL">43-39</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">115.4</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">117.0</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L2</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">5- </span> <!-- Posizione in classifica -->
+                    <span class="sq">WARRIORS</span> <!-- Nome squadra -->
+                    <span class="WL">43-39</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">120.6</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">118.6</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W3</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">6- </span> <!-- Posizione in classifica -->
+                    <span class="sq">SUNS</span> <!-- Nome squadra -->
+                    <span class="WL">42-40</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">116.0</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">115.6</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L1</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">7- </span> <!-- Posizione in classifica -->
+                    <span class="sq">CLIPPERS</span> <!-- Nome squadra -->
+                    <span class="WL">41-41</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">120.3</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">119.6</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W6</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">8- </span> <!-- Posizione in classifica -->
+                    <span class="sq">THUNDER</span> <!-- Nome squadra -->
+                    <span class="WL">40-42</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">115.5</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">116.9</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L4</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">9- </span> <!-- Posizione in classifica -->
+                    <span class="sq">PELICANS</span> <!-- Nome squadra -->
+                    <span class="WL">37-45</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">118.9</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">120.5</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L6</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">10- </span> <!-- Posizione in classifica -->
+                    <span class="sq">KINGS</span> <!-- Nome squadra -->
+                    <span class="WL">36-46</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">115.7</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">118.4</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W1</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">11- </span> <!-- Posizione in classifica -->
+                    <span class="sq">ROCKETS</span> <!-- Nome squadra -->
+                    <span class="WL">36-46</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">113.4</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">117.3</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L5</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">12- </span> <!-- Posizione in classifica -->
+                    <span class="sq">SPURS</span> <!-- Nome squadra -->
+                    <span class="WL">36-46</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">115.2</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">117.5</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W2</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">13- </span> <!-- Posizione in classifica -->
+                    <span class="sq">NUGGETS</span> <!-- Nome squadra -->
+                    <span class="WL">33-49</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">110.7</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">114.9</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L7</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">
+                    <span class="num">14- </span> <!-- Posizione in classifica -->
+                    <span class="sq">BLAZERS</span> <!-- Nome squadra -->
+                    <span class="WL">33-49</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">117.4</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">121.1</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">W1</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="due">
+                    <span class="num">15- </span> <!-- Posizione in classifica -->
+                    <span class="sq">GRIZZLIES</span> <!-- Nome squadra -->
+                    <span class="WL">21-61</span> <!-- Record di vittorie/sconfitte -->
+                    <span class="PPG">110.4</span> <!-- Punti per partita fatti -->
+                    <span class="OPPG">120.5</span> <!-- Punti per partita subiti -->
+                    <span class="STRK">L10</span> <!-- Striscia di vittori o di sconfitte -->
+                </li>
+                <li class="uno">NO TEAM (MISSING TEAM)</li>
+            </div>
+            <li id="west">WESTERN</li> <!-- Aggiungo la scritta/titolo della classifica -->
+            <li class="dati"> <!-- Inserisco i titoli delle statistiche -->
+                <span id="squadra">TEAM</span> <!-- Nome squadra -->
+                <span id="wl1">W - L</span> <!-- Vittorie e Sconfitte -->
+                <span id="ppg1">PPG</span> <!-- Punti per partita fatti -->
+                <span id="oppg1">OPPG</span> <!-- Punti per partita subiti -->
+                <span id="strk1">STREAK</span> <!-- Striscia di vittori o di sconfitte -->
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

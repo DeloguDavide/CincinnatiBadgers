@@ -1,0 +1,94 @@
+/*Caratteristiche generali del corpo della pagina*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #005585;
+    /*Colore di sfondo*/
+    text-align: center;
+}
+
+/*Caratteristiche per tutto quello presente nel sito*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Do informazioni generali a tutto cio' che e' dentro a(link)*/
+a {
+    /*Tolgo la linea del link*/
+    text-decoration: none;
+    /*Tolgo il colore blu del link*/
+    color: black;
+    display: block;
+}
+
+/*Informazioni header*/
+#cont-nome {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    z-index: 10;
+}
+
+#cont-nome h1{
+    margin: 1%;
+    font-size: 500%;
+    color: white;
+}
+
+#cont-nome a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 250%;
+    margin: 1%; /*Spazio fra un oggetto e l'altro*/
+}
+
+#logo1, #logo2 {
+    width: 9%;
+}
+
+/*Slider immagini*/
+.slider {
+    width: 100%;
+    height: 81%;
+    border: 6px solid #9E2A2B;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.img-cont {
+    height: 100%;
+    width: 800%;
+    display: flex;
+}
+
+.img-cont .immagine {
+    width: 100%;
+    height: 100%;
+}
+
+.img-cont img {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes imgBox {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -700%;
+    }
+}
+
+.img-cont {
+    animation: imgBox 45s linear infinite;
+}

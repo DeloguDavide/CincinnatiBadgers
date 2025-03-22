@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #005585; 
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /*Sezione per accedere o registarsi*/
+  .cont {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 40%;
+    background: white;
+    border-radius: 10px;
+    border: 3px solid goldenrod;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+  }
+  
+  .tit {
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form input, .form select {
+    font-size: 20px;
+    width: 100%;
+    padding: 3% 2%;
+    border: 3px solid darkslategray;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  #res{
+    position: fixed;
+    width: 20%;
+    margin-left: 69.5%;
+    margin-top: -1.5%;
+    padding: 2% 2%;
+    background-color: goldenrod;
+    color: white;
+    border: 3px solid darkslategray;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  
+  #res1 {
+    position: fixed;
+    width: 20%;
+    margin-left: 43.5%;
+    margin-top: -1.5%;
+    padding: 2% 2%;
+    background-color: goldenrod;
+    color: white;
+    border: 3px solid darkslategray;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  
+  #forgot {
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .reg{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .reg label {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .form input#pul1 {
+    color: #fff;
+    background-color: goldenrod;
+    font-size: 45px;
+    font-weight: 300; 
+    margin-top: 1.9rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .form input#pul2 {
+    color: #fff;
+    background-color: goldenrod;
+    font-size: 45px;
+    font-weight: 300; 
+    margin-top: 3.3rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .cont .form {
+    padding: 2rem;
+  }
+  
+  .cont .reg1 {
+    display: none;
+    padding: 1rem 7rem;
+  }
+  
+  #check:checked~.reg1 {
+    display: block;
+  }
+  
+  #check:checked~.log {
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  .reg label:hover {
+    text-decoration: underline;
+  }
+  
+  #res:hover, #res1:hover {
+    letter-spacing: 3px;
+  }
+  
+  #forgot:hover {
+    text-decoration: underline;
+  }
+  
+  .form input#pul1:hover, form input#pul2:hover {
+    letter-spacing: 8px;
+  }
